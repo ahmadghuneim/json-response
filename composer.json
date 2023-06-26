@@ -1,0 +1,36 @@
+{
+  "name": "ahmad/composer-learning",
+  "description": "Hello World",
+  "type": "library",
+  "keywords": [
+    "json",
+    "response",
+    "API response class",
+    "PHP"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "classmap": [
+    ],
+    "files": [
+    ]
+  },
+  "authors": [
+    {
+      "name": "ahmad ghuneim",
+      "email": "ahmad.ghuneim@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "filp/whoops": "^2.15"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
